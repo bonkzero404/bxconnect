@@ -1,0 +1,12 @@
+{
+    "name": "redbuzz/bxconnect",
+    "description": "Blackxperience Connect",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Janitra Panji",
+            "email": "bonkzero404@gmail.com"
+        }
+    ],
+    "require": {}
+}
