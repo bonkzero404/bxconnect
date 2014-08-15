@@ -8,5 +8,7 @@
             "email": "bonkzero404@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "redbuzz/bxconnect": "dev-master"
+    }
 }
