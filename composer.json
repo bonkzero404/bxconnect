@@ -10,5 +10,10 @@
     ],
     "require": {
         "redbuzz/bxconnect": "dev-master"
+    },
+    "autoload": {
+        "psr-0" : {
+            "BxConnect\\BlackxperienceAuth" : "src"
+        }
     }
 }
