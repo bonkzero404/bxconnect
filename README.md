@@ -40,7 +40,7 @@ $BxConnect = new BxConnect\BlackxperienceAuth($Blackxperience);
 ```
 
 After doing the above configuration, the next line you have to make a callback URL, it is required to do a redirect to your application.
-
+ 
 ```php
 $BxConnect::setCallbackUrl("http://YOUR_PHP_APP_WEBSITE_URL");
 ```
