@@ -83,7 +83,7 @@ if ($BxConnect::getUserData() == false) {
 	else if ($_GET['status_code'] == '0000') {
 		var_dump($BxConnect::getUserData());
 		echo "<br /><br />";
-		echo "<a href='http://localhost/c.php?act=logout'>Logout</a> ";
+		echo "<a href='http://YOUR_PHP_APP_WEBSITE_URL?act=logout'>Logout</a> ";
 		echo "<a href='". $BxConnect::updateUserUrl() . "'>Update User</a>";
 	}	
 	else {
@@ -92,7 +92,7 @@ if ($BxConnect::getUserData() == false) {
 }
 else {
 	var_dump($BxConnect::getUserData());
-	echo "<a href='http://localhost/c.php?act=logout'>Logout</a> ";
+	echo "<a href='http://YOUR_PHP_APP_WEBSITE_URL?act=logout'>Logout</a> ";
 	echo "<a href='". $BxConnect::updateUserUrl() . "'>Update User</a>";
 }
 ```
