@@ -1,4 +1,4 @@
-bxconnect
+Blackxperience Connect
 =========
 
 Blackxperience Auth
