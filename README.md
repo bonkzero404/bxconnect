@@ -111,7 +111,7 @@ array (size=8)
       'birthdate' => string '1985-04-18' (length=10)
       'city' => string 'Jakarta' (length=7)
       'occupation' => string 'Developer' (length=9)
-      'phone' => string '087775298468' (length=12)
+      'phone' => string '08777529xxxx' (length=12)
       'about_me' => string 'about description' (length=17)
       'photo_profile' => string 'http://connect.blackxperience.com/development/Public/Assets/images/image_profiles/fbbf8f0ba779080d6f954d261e375f22.jpg' (length=118)
   'additional_info' => 
