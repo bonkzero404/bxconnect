@@ -23,7 +23,7 @@ Easy to install with composer
 Usage
 =========
 
-In this case you are assumed to have an application on facebook and twitter, then you are also listed on the BX Connect application, after you do all that, the first step you should do is configure some parameters of the array with the following example:
+In this case you are assumed to have an application on facebook and twitter, then you are also listed on the BX Connect application, the first step you should do is configure some parameters array with the following example:
 
 ```php
 $Blackxperience = array (
@@ -37,4 +37,10 @@ $Blackxperience = array (
 );
 
 $BxConnect = new BxConnect\BlackxperienceAuth($Blackxperience);
+```
+
+After doing the above configuration, the next line you have to make a callback URL, it is required to do a redirect to your application.
+
+```php
+$BxConnect::setCallbackUrl("http://YOUR_PHP_APP_WEBSITE_URL");
 ```
