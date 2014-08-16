@@ -96,3 +96,36 @@ else {
 	echo "<a href='". $BxConnect::updateUserUrl() . "'>Update User</a>";
 }
 ```
+
+Example Result
+=========
+
+```php
+array (size=8)
+  'username' => string 'johndoe' (length=7)
+  'email' => string 'bonkzero404@gmail.com' (length=21)
+  'user_profile' => 
+    array (size=8)
+      'fullname' => string 'John Doe' (length=8)
+      'gender' => string 'Male' (length=4)
+      'birthdate' => string '1985-04-18' (length=10)
+      'city' => string 'Jakarta' (length=7)
+      'occupation' => string 'Developer' (length=9)
+      'phone' => string '087775298468' (length=12)
+      'about_me' => string 'about description' (length=17)
+      'photo_profile' => string 'http://connect.blackxperience.com/development/Public/Assets/images/image_profiles/fbbf8f0ba779080d6f954d261e375f22.jpg' (length=118)
+  'additional_info' => 
+    array (size=3)
+      'website_acc' => string 'www.panjisatria.com' (length=20)
+      'facebook_acc' => string 'www.facebook.com' (length=16)
+      'twitter_acc' => string 'www.twitter.com' (length=15)
+  'social_data' => 
+    array (size=4)
+      'facebook_img_profile' => string 'https://graph.facebook.com/1464164856/picture?type=square' (length=57)
+      'twitter_img_profile' => string 'http://abs.twimg.com/sticky/default_profile_images/default_profile_4_normal.png' (length=79)
+      'facebook_link' => string 'http://www.facebook.com/1464164856' (length=34)
+      'twitter_link' => string 'https://twttier.com/prasgroo' (length=28)
+  'register_via' => string 'email' (length=5)
+  'login_via' => string 'facebook' (length=8)
+  'time_access' => string '2014-08-16 14:51:38' (length=19)
+  ```
