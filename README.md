@@ -9,9 +9,10 @@ BLackxperience Connect / Bx Connect is a simple REST API for connecting users re
 
 Easy to install with composer
 =========
-
+```php
 {
     "require": {
         "redbuzz/bxconnect": "dev-master"
     }
 }
+```
