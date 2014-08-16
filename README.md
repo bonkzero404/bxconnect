@@ -23,7 +23,7 @@ Easy to install with composer
 Usage
 =========
 
-The examples are a good place to start. The minimal connect to BX platform you'll need to have is:
+In this case you are assumed to have an application on facebook and twitter, then you are also listed on the BX Connect application, after you do all that, the first step you should do is configure some parameters of the array with the following example:
 
 ```php
 $Blackxperience = array (
