@@ -6,3 +6,12 @@ BLackxperience Connect / Bx Connect is a simple REST API for connecting users re
 - Facebook Connect
 - Twitter Connect
 - Email Register
+
+Easy to install with composer
+=========
+
+{
+    "require": {
+        "redbuzz/bxconnect": "dev-master"
+    }
+}
