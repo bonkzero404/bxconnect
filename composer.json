@@ -1,4 +1,7 @@
 {
+    "name": "redbuzz/bxconnect",
+    "description": "Blackxperience Connect",
+    "license": "GPL",
     "repositories": [
         {
             "type": "package",
