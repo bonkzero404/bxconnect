@@ -1,19 +1,22 @@
 {
-    "name": "redbuzz/bxconnect",
-    "description": "Blackxperience Connect",
-    "license": "GPL",
-    "authors": [
+    "repositories": [
         {
-            "name": "Janitra Panji",
-            "email": "bonkzero404@gmail.com"
+            "type": "package",
+            "description": "Blackxperience Connect",
+            "package": {
+                "name": "redbuzz/bxconnect",
+                "version": "dev-master",
+                "source": {
+                    "url": "git://github.com/bonkzero404/bxconnect.git",
+                    "type": "git",
+                    "reference": "master"
+                },
+                "autoload": {
+                    "psr-0" : {
+                        "BxConnect\\BlackxperienceAuth" : "src"
+                    }
+                }
+            }
         }
-    ],
-    "require": {
-        "redbuzz/bxconnect": "dev-master"
-    },
-    "autoload": {
-        "psr-0" : {
-            "BxConnect\\BlackxperienceAuth" : "src"
-        }
-    }
+    ]
 }
