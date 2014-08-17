@@ -1,25 +1,19 @@
 {
     "name": "redbuzz/bxconnect",
-    "description": "Blackxperience Connect",
-    "license": "GPL",
-    "repositories": [
+    "description": "BLackxperience Connect / Bx Connect is a simple REST API. This repository contains the open source PHP Class that allows you to access BX Platform from your PHP app.",
+    "keywords": ["Blackxperience", "BxConnect"],
+    "license": "MIT",
+    "homepage": "http://blackxperience.com",
+    "authors": [
         {
-            "type": "package",
-            "description": "Blackxperience Connect",
-            "package": {
-                "name": "redbuzz/bxconnect",
-                "version": "dev-master",
-                "source": {
-                    "url": "git://github.com/bonkzero404/bxconnect.git",
-                    "type": "git",
-                    "reference": "master"
-                },
-                "autoload": {
-                    "psr-0" : {
-                        "BxConnect\\BlackxperienceAuth" : "src"
-                    }
-                }
-            }
+            "name": "Janitra Panji",
+            "email": "bonkzero404@gmail.com",
+            "homepage": "http://blackxperience.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+        "BxConnect\\BlackxperienceAuth" : "src/"
+    }
+    }
 }
