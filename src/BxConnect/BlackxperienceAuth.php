@@ -87,7 +87,7 @@ namespace BxConnect {
 		public static function setCallbackUrl($callback)
 		{
 			self::$callbackUrl = $callback;
-			return self::$callbackUrl;
+			return urldecode(self::$callbackUrl);
 		}
 
 		/**
@@ -229,7 +229,7 @@ namespace BxConnect {
 			return self::BX_SERVER . 
 					'facebook-login/' . 
 					$_SESSION['bxkey'] . 
-					'?callback_url=' . urldecode(self::$callbackUrl);
+					'?callback_url=' . self::$callbackUrl;
 		}
 
 		/**
