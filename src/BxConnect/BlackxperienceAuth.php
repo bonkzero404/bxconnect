@@ -17,7 +17,7 @@ namespace BxConnect {
 		/**
 		 * @var const
 		 */
-		CONST BX_SERVER	= "http://connect.blackxperience.com/development/Public/";
+		CONST BX_SERVER	= "http://connect.blackxperience.com/";
 
 		/**
 		 * @var string
